@@ -1,7 +1,9 @@
-var triggers_pulled="";
-var obstriggers ="";
-	const obs = new OBSWebSocket();
-	
+		var triggers_pulled="";
+		var obstriggers ="";
+		const obs = new OBSWebSocket();
+/*
+Load triggers from text file  and play sounds. :) 
+*/	
 async function getAllSubs(){
 
 	await obs.connect('ws://localhost:4455');
